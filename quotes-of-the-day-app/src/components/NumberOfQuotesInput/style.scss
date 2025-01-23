@@ -1,0 +1,22 @@
+.inputs-container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    .input-item {
+        flex: 1;
+        min-width: 150px;
+    }
+
+    .submit-btn {
+        min-width: 150px;
+        padding: 8px 16px;
+        font-weight: bold;
+    }
+}
